@@ -46,13 +46,18 @@ footer {
   border: none;
   background-color: #f9f7fe;
   width: 80%;
-  color: rgba(0,0,0,0.6);
+  color: rgba(0, 0, 0, 0.6);
 }
 
 .submit-input {
-  background-color: #be3e9eb1;
+  background-color: #be3e9e;
   color: white;
   border: none;
+}
+
+.submit-input:hover {
+  background-color: #be3e9eb2;
+  cursor: pointer;
 }
 
 .weather-app-container {
