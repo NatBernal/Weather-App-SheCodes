@@ -1,0 +1,68 @@
+body {
+  background-color: #f9f7fe;
+}
+
+header form {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin: 10px 0 20px 0;
+}
+
+header form input {
+  height: 60px;
+  font-size: 15px;
+  border-radius: 5px;
+}
+
+main .current-weather {
+  margin: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+footer {
+  text-align: center;
+}
+
+.current-weather .weather-description h1 {
+  color: black;
+}
+
+.current-weather .weather-description p strong {
+  color: #ffa7a7;
+}
+
+.current-weather .current-temperature {
+  color: black;
+  font-size: 40px;
+  display: flex;
+  align-items: center;
+  font-weight: bold;
+}
+
+.city-input {
+  padding-left: 5px;
+  border: none;
+  background-color: #f9f7fe;
+  width: 80%;
+  color: rgba(0,0,0,0.6);
+}
+
+.submit-input {
+  background-color: #be3e9eb1;
+  color: white;
+  border: none;
+}
+
+.weather-app-container {
+  background-color: white;
+  display: block;
+  margin: 20% auto;
+  padding: 20px;
+  width: 70%;
+  height: fit-content;
+  border-radius: 15px;
+  box-shadow: 0 30px 50px #c1b9d6;
+  color: rgba(0, 0, 0, 0.6);
+}
